@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://kit.fontawesome.com/59908bec2a.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Porfolio.html"><i class="fas fa-home"></i>Home</a>
+  <a href="Artwork.html"><i class="fas fa-brush"></i>Artwork</a>
+  <a href="Bootstrap.html"><i class="far fa-clipboard"></i>Projects</a>
+  <a href="Contact.html"><i class="fas fa-id-card"></i>Contact</a>
+  <img class="logo" src="logo.jpg">
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Projects</h1>
+  <p>Example of work from different classes</p> 
+</div>
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Photo Correction</h2>
+      <h5>Blemishes removed</h5>
+      <img class="pic" src="Trippert-Correction-Color.jpg">
+      <p>I corrected the blemishes on her face, and modified the background</p>
+      <h3>Social Media</h3>
+      <p>Contact me</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/shaquana-trippert-56ab3b1a0/"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/sh61599/"><i class="fab fa-instagram"></i>Instagram</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/shaquana.trippert.7"><i class="fab fa-facebook-f"></i>Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/shaquanatrippe2"><i class="fab fa-twitter"></i>Twitter</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2> 3D Design</h2>
+      <h5>Created one semmester</h5>
+     <img class= "pic1" src="Screenshot_20210414-143554.png">
+      <p>This is the first 3D design that I have created. Our assignment was to create a 3d wine bottle for a GIF. </p>
+      <br>
+      <h2>Photography</h2>
+      <h5>Pictures that was taken</h5>
+      <img class="pic1" src="Screenshot 2021-04-27 105656.png">
+      <p>This is an example of a photograph graph that I have taken.</p>
+      <h2>Drawing</h2>
+      <h5>Basic Drawing</h5>
+     <img class="pic1" src="Screenshot_20210414-144127.png">
+      <p>This is an example of a drawing for another class</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

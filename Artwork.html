@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <title> Portfolio</title>
+    <link rel="stylesheet" type= "text/css" href="portfolio.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <script src="https://kit.fontawesome.com/59908bec2a.js" crossorigin="anonymous"></script>
+  </head>
+  <body> 
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Porfolio.html"><i class="fas fa-home"></i>Home</a>
+      <a href="Artwork.html"><i class="fas fa-brush"></i>Artwork</a>
+      <a href="Bootstrap.html"><i class="far fa-clipboard"></i>Projects</a>
+      <a href="Contact.html"><i class="fas fa-id-card"></i>Contact</a>
+      <img class="logo" src="logo.jpg">
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+  <section class= "section-padding"> 
+    <div class="header">
+      <h1>Examples</h1>
+      <p>Most <b>recent</b> work.</p>
+    </div>
+<div class="row img-grid"> 
+<div class= "column fit-image">  
+  <div class="row"> <img src= "images/painting.jpg" alt= "black and white zebra painting with gray backgrond"> </div>
+  <div class="row"> <img src= "images/Drawing1.jpg" alt= "Drawing of a wine glass and bottle that is black and gray"> </div>
+</div> 
+  <div class="column fit-image">
+  <div class="row"> <img src= "images/Drawing2.jpg" alt= "black and gray drawing of pickachu"> </div>
+  <div class="row"> <img src= "images/Drawing3.jpg" alt= "black object with brown background"> </div>
+  <div class="row"> <img src= "images/Drawing4.jpg" alt= "purple and green mountains"> </div>
+</div>
+<div class= "column fit-image"> 
+  <div class="row"> <img src= "images/painting.jpg"> </div>
+  <div class="row"> <img src= "images/Drawing5.jpg"> </div>
+</div> 
+</div> 
+<div class="footer">
+  <h2>Contact</h2>
+  <ul class="social">
+    <li><a href="shaquanatrippert@gmail.com" target=" _blank"><i class="fas fa-envelope"></i></a></li>
+    <li><a href="https://shareandexspire.wordpress.com/portfolio/" target="_blank"><i class="fab fa-wordpress"></i></a></li>
+    <li><a href="https://twitter.com/shaquanatrippe2" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/shaquana-trippert-56ab3b1a0/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    <li><a href="https://www.facebook.com/shaquana.trippert.7/photos_all" target="_blank"><i class="fab fa-facebook"></i></a></li>
+</div>
+  </section>
+</body>
+</html>
